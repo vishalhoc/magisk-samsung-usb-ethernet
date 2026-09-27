@@ -1,0 +1,7 @@
+id=samsung_usbeth_fix
+name=Samsung USB Ethernet Fix (RTL8156)
+version=v1.0
+versionCode=1
+author=Galaxy AT Tool
+description=Auto-renames usb0 -> eth0 so Samsung EthernetManager detects RTL8156 (0BDA:8156) and all USB ethernet adapters. Enables Ethernet option in Settings and Ethernet Tethering. Confirmed working on SM-M326B Android 13.
+minMagisk=24000

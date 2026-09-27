@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Enables Android Ethernet feature flag for Samsung devices -->
+<!-- Required for Settings → Connections → Ethernet to appear -->
+<permissions>
+    <feature name="android.hardware.ethernet" />
+</permissions>

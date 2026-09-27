@@ -1,0 +1,11 @@
+# SELinux rules for USB Ethernet on Samsung Galaxy M32 5G
+# Allows USB ethernet interface management by Magisk context
+
+# Allow magisk domain to manage network interfaces
+allow magisk net_socket create_socket_perms_no_ioctl;
+allow magisk self capability net_admin;
+allow magisk self capability net_raw;
+
+# Allow shell to rename network interfaces  
+allow shell self capability net_admin;
+allow shell netd_socket rw_socket_perms;

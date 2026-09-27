@@ -1,0 +1,4 @@
+#!/sbin/sh
+SKIPUNZIP=1
+. $TMPDIR/util_functions.sh
+require_new_magisk
